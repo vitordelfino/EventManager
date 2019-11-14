@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "strict": true,
+    "moduleResolution": "node",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "target": "es2017",
+    "noImplicitAny": true,
+    "outDir": "./dist/src",
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    "./typings/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*-spec.ts"
+  ]
+}

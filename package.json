@@ -1,0 +1,21 @@
+{
+  "name": "event-emitter-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/app.ts",
+    "tsc": "tsc",
+    "build": "npm run tsc",
+    "postinstall": "npm run build"
+  },
+  "author": "Vitor Delfino",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.7"
+  },
+  "dependencies": {
+    "typescript": "^3.7.2"
+  }
+}
